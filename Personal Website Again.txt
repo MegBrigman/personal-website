@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #ff6f61;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .profile-pic {
+            display: block;
+            margin: 0 auto;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        h2 {
+            color: #ff6f61;
+        }
+        .geometric {
+            background: linear-gradient(45deg, #ff6f61, #ffcc00);
+            padding: 20px;
+            color: white;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        .contact-info {
+            text-align: center;
+        }
+        .contact-info a {
+            color: #ff6f61;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Personal Webpage</h1>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#resume">Resume & Accomplishments</a>
+        <a href="#passions">Passions</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="profile-pic.jpg" alt="Profile Picture" class="profile-pic">
+        <p>Hello! I'm Meg Brigman, a professional with a passion for AI and web3. With over 5 years of experience in startups, I have developed a strong foundation in growing early stage companies. I am dedicated to continuous learning and growth, always seeking new challenges and opportunities to expand my knowledge.</p>
+    </section>
+    <section id="resume">
+        <h2>Resume & Accomplishments</h2>
+        <div class="geometric">
+            <h3>Experience</h3>
+            <p>[Your Job Title] at [Company Name]</p>
+            <p>I'm able to build a company</p>
+            <h3>Education</h3>
+            <p>BA in Economics, Rice University</p>
+            <h3>Skills</h3>
+            <p>Communication, Leadership, etc.</p>
+        </div>
+    </section>
+    <section id="passions">
+        <h2>Passions</h2>
+        <p>Outside of my professional life, I have a deep interest in niche sports. Whether it's gaelic football, water polo, or live music, I find joy and fulfillment in pursuing these activities. They provide a great balance to my work life and keep me energized and motivated.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact-info">
+            <p>You can reach me at: <a href="mailto:megbrigman@gmail.com">megbrigman@gmail.com</a></p>
+            <p>Connect with me on <a href="https://www.linkedin.com/in/megbrigman" target="_blank">LinkedIn</a></p>
+        </div>
+    </section>
+</body>
+</html>
